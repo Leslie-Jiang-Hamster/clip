@@ -16,7 +16,7 @@ class Classifier:
     category = self.categories[probs.argmax()]
     return category
 
-classifier = Classifier(["cat", "dog", "elephant"])
+classifier = Classifier(["cat", "dog", "horse"])
 
 image = Image.open("cat.jpg")
 
